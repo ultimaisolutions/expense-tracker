@@ -4,6 +4,11 @@
     justify-content: flex-start;
     align-items: center;
     border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-title{
+    background-color: beige;
 }
 
 .expense-tracker-container{
@@ -14,12 +19,26 @@
     border: 2px solid black;
     border-radius: 8px;
     margin: 20px auto;
-    width: 90%;
-    min-height: 400px;
+    width: 60%;
+    min-height: auto;
     background-color: white;
 }
 
 .add-expense-button{
     margin-top: auto;
     border: 2px solid black;
+}
+
+.expense-list{
+    border: 2px solid black;
+    padding: 3px;
+    list-style-type: none;
+}
+.expense-card{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    max-width: auto;
+    text-align: center;
 }
